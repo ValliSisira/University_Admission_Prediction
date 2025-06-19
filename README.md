@@ -58,3 +58,12 @@ The model is trained on the [Admission_Predict_Ver1.1.csv](Admission_Predict_Ver
 2. Install dependencies - pip install flask pandas scikit-learn
 3. Run the Flask app: python admission_flask_app.py
 4. Open browser and view the results.
+
+## 📸 Project Screenshots
+
+### 🎯 Home Page
+![Home](assets/index_form.png)
+
+### 🧠 Predicted Result
+![Result](assets/result_output.png)
+
