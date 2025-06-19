@@ -36,17 +36,17 @@ The model is trained on the [Admission_Predict_Ver1.1.csv](Admission_Predict_Ver
 
 University_Admission_Prediction/
 │
-├── admission_flask_app.py              # Flask backend
-├── university_rating_linear_model.pkl  # Trained model
-├── Admission_Predict_Ver1.1.csv        # Dataset
-├── README.md                           # Project documentation
+├── admission_flask_app.py # Flask backend
+├── university_rating_linear_model.pkl # Trained model
+├── Admission_Predict_Ver1.1.csv # Dataset
+├── README.md # Project documentation
 │
-├── templates/                          # HTML templates
-│   ├── index.html                      # Input form UI
-│   └── result.html                     # Output UI
+├── templates/ # HTML templates
+│ ├── index.html # Input form UI
+│ └── result.html # Output UI
 │
-└── static/                             # Static assets
-    └── style.css                       # Styling for HTML pages
+└── static/ # Static assets
+└── style.css # Styling for HTML pages
 
 
 ---
