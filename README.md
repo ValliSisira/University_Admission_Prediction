@@ -34,6 +34,7 @@ The model is trained on the [Admission_Predict_Ver1.1.csv](Admission_Predict_Ver
 
 ## 📁 Folder Structure
 
+
 University_Admission_Prediction/
 │
 ├── admission_flask_app.py # Flask backend
