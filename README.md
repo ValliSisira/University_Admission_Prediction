@@ -59,11 +59,11 @@ The model is trained on the [Admission_Predict_Ver1.1.csv](Admission_Predict_Ver
 3. Run the Flask app: python admission_flask_app.py
 4. Open browser and view the results.
 
-## 📸 Project Screenshots
+## 🖼️ Project Screenshots
 
-### 🎯 Home Page
-![Home](assets/index_form.png)
+### 🎓 Input Form Page
+![Input Form](homepage.png)
 
-### 🧠 Predicted Result
-![Result](assets/result_output.png)
+### ✅ Prediction Result
+![Prediction Output](output.png)
 
