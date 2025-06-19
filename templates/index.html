@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Admission Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 University Admission Predictor</h1>
+        <form action="/predict" method="post">
+            <label>GRE Score (Range: 290–340)</label>
+            <input type="number" name="gre" min="290" max="340" placeholder="e.g. 320" required>
+
+            <label>TOEFL Score (Range: 90–120)</label>
+            <input type="number" name="toefl" min="90" max="120" placeholder="e.g. 110" required>
+
+            <label>University Rating (1 = Low, 5 = High)</label>
+            <input type="number" name="rating" min="1" max="5" placeholder="e.g. 4" required>
+
+            <label>SOP Rating (1.0–5.0)</label>
+            <input type="number" step="0.5" min="1" max="5" name="sop" placeholder="e.g. 4.5" required>
+
+            <label>LOR Rating (1.0–5.0)</label>
+            <input type="number" step="0.5" min="1" max="5" name="lor" placeholder="e.g. 4.0" required>
+
+            <label>CGPA (Range: 6.0–10.0)</label>
+            <input type="number" step="0.01" min="6" max="10" name="cgpa" placeholder="e.g. 8.7" required>
+
+            <label>Research Experience</label>
+            <div class="radio-group">
+                <label><input type="radio" name="research" value="1" required> Yes (Has research experience)</label>
+                <label><input type="radio" name="research" value="0"> No (No research experience)</label>
+            </div>
+
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Predict University Rating</title>
+</head>
+<body>
+    <h2>🎓 University Rating Prediction (Linear Regression)</h2>
+    <form method="POST" action="/predict">
+        GRE Score: <input type="number" name="gre" min="290" max="340" required><br>
+        TOEFL Score: <input type="number" name="toefl" min="90" max="120" required><br>
+        SOP (1-5): <input type="number" step="0.5" name="sop" min="1" max="5" required><br>
+        LOR (1-5): <input type="number" step="0.5" name="lor" min="1" max="5" required><br>
+        CGPA (0-10): <input type="number" step="0.01" name="cgpa" min="0" max="10" required><br>
+        Research (0 = No, 1 = Yes): <input type="number" name="research" min="0" max="1" required><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
+ -->

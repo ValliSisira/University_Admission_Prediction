@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>🎯 Predicted Chance of Admission:</h2>
+        <h1>{{ prediction }}</h1>
+        <br>
+        <a href="/" class="back-link">⟵ Try Again</a>
+    </div>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Results</title>
+</head>
+<body>
+    <h2>🎯 Predicted University Rating: {{ rating }}</h2>
+    <h3>🏫 Recommended Universities:</h3>
+    <ul>
+        {% for uni in universities %}
+            <li>{{ uni }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">🔁 Try Again</a>
+</body>
+</html> -->
